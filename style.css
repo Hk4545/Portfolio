@@ -1,0 +1,111 @@
+.firstdiv{
+    background-color:rgb(83, 202, 202);
+    margin: 0px;
+    padding: 20px;
+    position:relative;
+    top: 0px;   
+}
+@media screen and (max_width:1230px){
+    .firstdiv a{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+.firstdiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px; 
+    padding: 10px 50px;
+    position: relative;
+    top: 25px;
+    border-radius: 20px;
+
+
+}
+.firstdiv a:hover{
+    background-color:white;
+    color: black;
+}
+.firstdiv div{
+    position: relative;
+    width: 100%;
+
+}
+.firstdiv img{
+    display: inline-block;
+     width: 3%;
+     position: relative;
+     left: 0px;
+     bottom: 10px;
+}
+.firstdiv span{
+    display: inline-block;
+    margin-left: 93%;
+    position: relative;
+    right: 25px;
+    bottom: 20px;
+    color: rgb(97, 17, 226);
+}
+.seconddiv{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    
+    width: 100%;
+    
+
+}
+.seconddiv h1{
+    font-style: oblique;
+    font-size: 45px;
+}
+.seconddiv span{
+    color: rgb(212, 53, 226);
+}
+
+body{
+    background-color: rgb(195, 231, 195);
+}
+article div{
+    display: inline-block;
+    width: 30%;
+    margin: 5%;
+    text-align: center;
+    position: relative;
+    background-color: palevioletred;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    right: -110px;
+   
+}
+.work div{
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    margin: 2vw 10vw;
+    left: 6vw;
+    
+
+
+}
+.work div img{
+    width: 20vw;
+    height: 20vw;
+
+
+}
+.work h1{
+    text-align: center;
+}
+
+.contact{
+    
+    display: block;text-align: center;
+    padding: 20px;
+    position: relative;
+    margin: 13vw 30vw;
+    
+    font-style: oblique;
+    font-size: 20px;
+    
+}
